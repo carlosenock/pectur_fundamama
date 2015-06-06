@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondototal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:id="@+id/linearLogin"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".LoginActivity" >
+
+    <!--  <TextView
+        style="@style/etTitulos"
+        android:id="@+id/tvTituloLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        />-->
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="280dp"
+        android:src="@drawable/logofundamama"
+        android:id="@+id/logoLogin"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center_horizontal"
+        android:text="Introduzca su cedula de identidad para ingresar como voluntario"
+        android:id="@+id/tvInformacion"
+        android:textColor="@color/negro"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/etUsuario"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cedula de identidad"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:inputType="textEmailAddress"
+        android:visibility="invisible"/>
+
+
+    <EditText
+        android:id="@+id/etContrasena"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Clave"
+        android:gravity="center_vertical"
+        android:inputType="textPassword"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        android:lines="1"/>
+
+
+    <CheckBox
+        android:id="@+id/mostrarClave"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Clave"
+        android:textSize="14sp"
+        android:textColor="@color/negro"
+        android:visibility="invisible"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:id="@+id/btIniciarSesion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar"
+        android:gravity="center"
+        android:padding="13dp"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/btn_personalizado_login_deshabilitado"
+        android:visibility="invisible"
+        android:onClick="iniciarSesion"/>
+
+    <TextView
+        android:id="@+id/olvidar_clave"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Olvide mi Clave"
+        android:textColor="@color/negro"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:visibility="invisible"/>
+
+</LinearLayout>
+

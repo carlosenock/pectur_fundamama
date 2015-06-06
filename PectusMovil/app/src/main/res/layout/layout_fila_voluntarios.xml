@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/background_change">
+
+
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cedula"
+   android:layout_marginLeft="40dp"
+
+            android:id="@+id/cedulaVoluntario"
+            android:layout_marginTop="44dp"
+          android:textSize="15dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/nombreVoluntario"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apellido"
+        android:textSize="16dp"
+
+android:layout_marginLeft="40dp"
+        android:layout_marginTop="24dp"
+
+        android:id="@+id/apellidoVoluntario" />
+
+
+
+
+</RelativeLayout>

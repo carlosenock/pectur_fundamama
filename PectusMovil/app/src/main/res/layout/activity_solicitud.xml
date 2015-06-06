@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondototal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fc4eb4"
+            android:id="@+id/linearLayout">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="24dp"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Tipo de Solicitud"
+                    android:id="@+id/tvTitulo"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"/>
+
+
+            </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="16dp"
+            android:textColor="@color/negro"
+            android:layout_marginTop="40dp"
+            android:text="SELECCIONE EL TIPO DE SOLICITUD QUE DESEA REALIZAR:"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView" />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:hint="Ciudad"
+            android:id="@+id/spTipoSolicitud"
+            android:layout_weight="1"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/edittext_selector"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="CONTINUAR"
+            android:textColor="@android:color/white"
+            android:textSize="23dp"
+            android:gravity="center"
+            android:id="@+id/btSiguiente"
+            android:layout_weight="0.19"
+            android:background="@drawable/botonredondoverde"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

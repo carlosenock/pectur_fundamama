@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:columnCount="4"
+    android:id="@+id/glItemListaPaciente"
+    >
+    <TextView
+        android:id="@+id/tvNombreApellido"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="10dp"
+        android:text="Nombre del Paciente"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/tvCedula"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:text="Cedula del Paciente"
+        android:typeface="sans"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="60dp"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/tvNombreApellido"
+        android:layout_alignStart="@+id/tvNombreApellido"
+        android:onClick="Detallar2" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonCel"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:onClick="llamar"
+        android:background="@drawable/ic_telefono"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tvCedula"
+        android:layout_toEndOf="@+id/tvCedula" />
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonMsj"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:onClick="enviarMsje"
+        android:background="@drawable/ic_msj"
+        android:layout_toEndOf="@+id/buttonCel"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/buttonCel" />
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/buttonVerDetallePaciente"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:background="@drawable/ic_detallar"
+        android:layout_toEndOf="@+id/buttonCel"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/tvNombreApellido"
+        android:layout_alignStart="@+id/tvNombreApellido"
+        android:layout_alignRight="@+id/tvNombreApellido"
+        android:layout_alignEnd="@+id/tvNombreApellido"
+        android:layout_alignBottom="@+id/buttonCel"
+
+        android:onClick="Detallar" />
+</RelativeLayout>
+

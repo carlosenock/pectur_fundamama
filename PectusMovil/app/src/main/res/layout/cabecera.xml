@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top"
+        android:weightSum="1">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="99dp">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/imageView"
+                android:background="@drawable/ic_cabeceravisitante"/>
+
+          <!--  <TextView
+                android:layout_width="128dp"
+                android:layout_height="66dp"
+                android:id="@+id/textView"
+                android:text="Hola Visitante!"
+                android:gravity="center"
+                android:textColor="@color/negro"
+                android:textSize="15dp"/>-->
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="129dp">
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:text="Ingresar"
+                    android:id="@+id/bIngresa"
+                    android:background="@color/verde_agua"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginBottom="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingBottom="4dp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

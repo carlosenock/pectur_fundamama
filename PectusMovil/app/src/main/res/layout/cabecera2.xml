@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="99dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="250dp"
+                android:layout_height="fill_parent"
+                android:background="@drawable/ic_cabeceravoluntario"/>
+
+           <!-- <TextView
+                android:layout_width="103dp"
+                android:layout_height="58dp"
+                android:id="@+id/textView"
+                android:text="Pedro Perez"
+                android:gravity="center"
+                android:textColor="@color/negro"
+                android:textSize="15dp"/>-->
+        </LinearLayout>
+
+
+      <!--  <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="63dp"
+            android:layout_height="36dp"
+            android:text="Salir"
+            android:id="@+id/bSalir"
+            android:background="@color/verde_agua"
+            android:layout_marginLeft="110dp"
+            android:layout_marginBottom="5dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="4dp"
+            />
+-->
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="gris_claro">#f5f5f5</color>
+    <color name="rosado_claro">#fce7f7</color>
+    <color name="rosado_oscuro">#f7aff3</color>
+    <color name="verde_agua">#6fd7bb</color>
+    <color name="verde_oscuro">#ff63c6aa</color>
+    <color name="negro">#ff000000</color>
+    <color name="ActiobBar_seleccionado">#ffdd9bd9</color>
+    <color name="azul">#ff3a77dd</color>
+    <color name="fondo">#FFD1E5</color>
+    <color name="titulo">#750033</color>
+    <color name="botonColor">#6fd7bb</color>
+    <color name="grisClaro">#f5f5f5</color>
+    <color name="blanco">#ffffff</color>
+    <color name="rosado_intenso">#ff0087</color>
+    <color name="verde_claro">#ff7bb43d</color>
+    <color name="fucsia">#ffdc3592</color>
+    <color name="verde">#a0dd4f</color>
+    <color name="gris">#ffd9d2dd</color>
+
+    <color name="step_pager_previous_tab_color">#4433b5e5</color>
+    <color name="step_pager_selected_tab_color">#ff0099cc</color>
+    <color name="step_pager_selected_last_tab_color">#ff669900</color>
+    <color name="step_pager_next_tab_color">#69000000</color>
+    <color name="grisplomo">#93000000</color>
+    <color name="review_green">#ff669900</color>
+    <color name="text_light">#66000000</color>
+
+</resources>

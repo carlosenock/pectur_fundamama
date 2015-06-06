@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_change">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+         android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/nombrePatrocinanteEditar"
+        android:textSize="19dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contribucion"
+        android:text="Contribucion:"
+        android:layout_marginTop="35dp"
+        android:width="200dp"
+        android:layout_below="@+id/nombrePatrocinanteEditar"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contribucionMonto"
+        android:text=""
+        android:layout_marginTop="35dp"
+        android:width="200dp"
+        android:layout_alignLeft="@+id/contribucion"
+        android:layout_marginLeft="90dp"
+        android:layout_alignParentTop="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numDeposito"
+        android:text="Cantidad:"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/contribucion"
+        android:width="200dp"
+
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numeroDepositoContenido"
+        android:text=""
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/contribucion"
+        android:width="200dp"
+android:layout_alignLeft="@+id/numDeposito"
+        android:layout_marginLeft="140dp"
+        android:layout_alignParentTop="true"
+        />
+
+
+</RelativeLayout>

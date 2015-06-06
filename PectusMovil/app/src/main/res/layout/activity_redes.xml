@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="@drawable/fondototal"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="5dp"
+        android:weightSum="1">
+<TextView
+    android:layout_width="fill_parent"
+    android:gravity="center"
+    android:textSize="18dp"
+    android:text="Conectate y Siguenos por nuestras redes sociales"
+    android:layout_height="fill_parent" />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="544dp"
+            android:layout_weight="0.60">
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Twitter"
+                    android:background="@drawable/botonpulsado"
+                    android:drawableTop="@drawable/tweet"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:padding="5dp"
+                    android:onClick="twitter"></Button>
+
+
+                            <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                                android:background="@drawable/botonpulsado"
+                    android:text="Facebook"
+                    android:drawableTop="@drawable/facebook"
+                    android:gravity="center"
+                    android:onClick="facebook"
+                    android:textSize="17sp"
+                    android:padding="5dp"></Button>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Instagram"
+                    android:background="@drawable/botonpulsado"
+                    android:drawableTop="@drawable/instagram"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:padding="5dp"
+                    android:onClick="instagram"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Ubícanos"
+                    android:background="@drawable/botonpulsado"
+                    android:drawableTop="@drawable/googlemaps"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:padding="5dp"
+
+                    android:onClick="gmaps"/>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Llamános"
+                    android:background="@drawable/botonpulsado"
+                    android:drawableTop="@drawable/llamar"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:padding="5dp"
+                    android:onClick="llamar"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Escribénos"
+                    android:background="@drawable/botonpulsado"
+                    android:drawableTop="@drawable/email"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:padding="5dp"
+
+                    android:onClick="email"/>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Portal Web"
+                    android:background="@drawable/botonpulsado"
+                    android:drawableTop="@drawable/web"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:padding="5dp"
+                    android:onClick="web"/>
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Nuestro Canal"
+                    android:background="@drawable/botonpulsado"
+                    android:drawableTop="@drawable/youtube"
+                    android:gravity="center"
+                    android:textSize="17sp"
+                    android:padding="5dp"
+
+                    android:onClick="youtube"/>
+
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

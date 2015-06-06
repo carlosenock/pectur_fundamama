@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:columnCount="4"
+    >
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="10dp"
+        android:text="Nombre del Patrocinador"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_x="14dp"
+        android:layout_y="6dp" />
+
+    <TextView
+        android:id="@+id/tvActividadComercial"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="10dp"
+        android:text="Actividad Comercial"
+        android:typeface="sans"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_x="15dp"
+        android:layout_y="32dp" />
+
+</GridLayout>

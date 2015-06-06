@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Estados">
+        <item>Amazonas</item>
+        <item>Anzoátegui</item>
+        <item>Apure</item>
+        <item>Aragua</item>
+        <item>Barinas</item>
+        <item>Bolívar</item>
+        <item>Carabobo</item>
+        <item>Cojedes</item>
+        <item>Delta Amacuro</item>
+        <item>Distrito Capital</item>
+        <item>Falcón</item>
+        <item>Guárico</item>
+        <item>Lara</item>
+        <item>Mérida</item>
+        <item>Miranda</item>
+        <item>Monagas</item>
+        <item>Nueva Esparta</item>
+        <item>Portuguesa</item>
+        <item>Sucre</item>
+        <item>Tachira</item>
+        <item>Vargas</item>
+        <item>Yaracuy</item>
+        <item>Zulia</item>
+
+    </string-array>
+
+    <string-array name="Sexo">
+        <item>M</item>
+        <item>F</item>
+    </string-array>
+
+    <string-array name="EstadoCivil">
+        <item>Soltero</item>
+        <item>Casado</item>
+        <item>Divorciado</item>
+        <item>Viudo</item>
+    </string-array>
+
+    <string-array name="Ciudades">
+        <item>Barquisimeto</item>
+        <item>Cabudare</item>
+        <item>Carora</item>
+        <item>El Tocuyo</item>
+        <item>Sarare</item>
+        <item>Quibor</item>
+        <item>Yarigua</item>
+        <item>San Felipe</item>
+        <item>Chivacoa</item>
+        <item>Nirgua</item>
+
+    </string-array>
+
+    <string-array name="arrayEstado">
+        <item>Lara</item>
+        <item>Caracas</item>
+        <item>Valencia</item>
+    </string-array>
+
+    <string-array name="arrayComicion">
+        <item>Comision 1</item>
+        <item>Comision 2</item>
+        <item>Comision 3</item>
+    </string-array>
+
+    <string-array name="Tipos">
+        <item>Consulta de Cita</item>
+        <item>Consulta de Charla</item>
+    </string-array>
+
+    <string-array name="TiposCharla">
+        <item>Eduativa</item>
+        <item>Preventiva</item>
+    </string-array>
+
+    <string-array name="TipoSolicitud">
+        <item>Solicitar Cita</item>
+        <item>Solicitar Charla</item>
+    </string-array>
+
+</resources>

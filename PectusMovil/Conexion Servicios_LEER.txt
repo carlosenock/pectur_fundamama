@@ -1,0 +1,4 @@
+para conectar con servicios buscar las clases en el paquete 
+PectusMovil\app\src\main\java\com\ucla\pectusmovil\servicio
+y modificar la variable IP para que apunte a la ip de la maquina donde se encuentre el servidor
+seguido del puerto respectivo, ejemplo "192.168.1.1:80"

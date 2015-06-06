@@ -1,0 +1,169 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/fondo"
+    tools:context="com.ucla.pectusmovil.controlador.evento.DetalleEventoVer">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollEvento"
+
+        >
+        <RelativeLayout   android:id="@+id/datosEventosV"  android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:text="Evento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginLeft="130dp"
+                android:textStyle="bold"
+                android:id="@+id/textView2" />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/datosEentoPrincipal"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5ta Carrera Caminata FUNDAMAMA"
+                    android:layout_marginTop="50dp"
+                    android:id="@+id/nombreEventoVer"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Como todos los años, Fundamama propicia un encuentro deportivo en pro de la salud y la unión familiar. En esta oportunidad, la 5°ta carrera-caminata de esta loable institución se llevará a cabo el domingo 19 de octubre, desde las 7 de la mañana, y recorrerá 10 kilómetros en pro de las féminas que luchan día tras día con esta inesperada enfermedad. "
+                    android:layout_marginTop="10dp"
+
+                    android:id="@+id/detalleEventoVoluntario"
+                    android:layout_below="@id/nombreEventoVer"
+                    />
+                <TextView
+                    android:layout_below="@+id/detalleEventoVoluntario"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Estado Lara Ciudad Barquisimeto"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/estadoCiudad"
+                    />
+                <TextView
+                    android:layout_below="@+id/estadoCiudad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Direccion:"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/direccionEventoLabel"
+                    />
+
+                <TextView
+                    android:layout_below="@+id/estadoCiudad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Parque de Fútbol de la Urb. Santa Elena en Barquisimeto, Estado Lara."
+                    android:layout_marginTop="10dp"
+                    android:width="300dp"
+                    android:layout_marginLeft="70dp"
+                    android:id="@+id/direccionEvento"
+                    />
+
+                <TextView
+                    android:layout_below="@+id/direccionEvento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha y Hora:"
+                    android:layout_marginTop="10dp"
+                    android:width="300dp"
+
+                    android:id="@+id/verHoraEventoLabel"
+                    />
+
+                <TextView
+                    android:layout_below="@+id/direccionEvento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="19/12/2014 a las 7:00am"
+                    android:layout_marginTop="10dp"
+                    android:width="300dp"
+                    android:layout_marginLeft="90dp"
+                    android:id="@+id/verHoraEvento"
+                    />
+
+
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="300dp">
+                <Button
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ver Voluntarios"
+                    android:width="350dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/botonColor"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:id="@+id/botonVoluntariosResultado"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ver Patrocinadores"
+                    android:width="350dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/botonColor"
+                    android:id="@+id/verPatrocinanteConsulta"
+                    android:layout_below="@+id/botonVoluntariosResultado"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:visibility="gone" />
+                <Button
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/botonColor"
+                    android:text="Ver Gmap"
+                    android:width="350dp"
+                    android:layout_marginTop="10dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:id="@+id/verGmapConsulta"
+                    android:layout_below="@+id/verPatrocinanteConsulta"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+                <Button
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Atras"
+                    android:width="350dp"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/volverEventoVoluntario"
+                    android:layout_below="@+id/verGmapConsulta"
+                    android:background="@color/botonColor"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

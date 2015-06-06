@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ucla.pectusmovil" >
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!--
+     To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".controlador.actividad.DetalleActividad"
+            android:label="@string/title_activity_detalle_actividad" >
+        </activity>
+        <activity
+            android:name=".controlador.actividad.ListadoActividades"
+            android:label="@string/title_activity_listado_actividades" >
+        </activity>
+        <activity
+            android:name=".controlador.actividad.ListaActividadVoluntario"
+            android:label="@string/title_activity_detalle_actividad_voluntario" >
+        </activity>
+        <activity
+            android:name=".principal.Splash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controlador.evento.ListaEventoVoluntario"
+            android:label="@string/title_activity_lista_evento_voluntario" >
+        </activity>
+        <activity
+            android:name=".controlador.evento.TodosEventos"
+            android:label="@string/title_activity_todos_eventos" >
+        </activity>
+        <activity
+            android:name=".controlador.evento.DetalleEvento"
+            android:label="@string/title_activity_detalle_evento" >
+        </activity>
+        <activity
+            android:name=".principal.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".principal.SolicitudCita"
+            android:label="@string/title_activity_precitaPaciente"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <activity
+            android:name=".controlador.actividad.ListaAvtividadVoluntario"
+            android:label="@string/title_activity_lista_avtividad_voluntario" >
+        </activity>
+        <activity
+            android:name=".principal.ConocenosActivity"
+            android:label="@string/title_activity_conocenos" >
+        </activity>
+        <activity
+            android:name=".principal.Bienvenida"
+            android:label="@string/title_activity_bienvenida"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".principal.Wizard"
+            android:label="@string/title_activity_wizard"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name=".principal.redesActivity"
+            android:label="@string/title_activity_splash" >
+        </activity>
+        <activity
+            android:name=".principal.ConsultaSolicitudes"
+            android:label="@string/title_activity_splash" >
+        </activity>
+        <activity
+            android:name=".principal.MenuPrincipal"
+            android:label="@string/title_activity_splash" >
+        </activity>
+        <activity
+            android:name=".principal.CambiarClave"
+            android:label="@string/title_activity_splash" >
+        </activity>
+        <activity
+            android:name=".principal.SolicitudCharla"
+            android:label="@string/title_activity_splash" >
+        </activity>
+        <activity
+            android:name=".principal.SolicitudActivity"
+            android:label="@string/title_activity_solicitud" >
+        </activity>
+        <activity
+            android:name=".controlador.actividad.ListaSolicitudesActividad"
+            android:label="@string/title_activity_lista_solicitudes_actividad" >
+        </activity>
+    </application>
+
+</manifest>

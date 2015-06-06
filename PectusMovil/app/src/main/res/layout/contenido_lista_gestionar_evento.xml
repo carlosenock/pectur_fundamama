@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TableRow>
+
+            <TextView
+                android:id="@+id/nombreEventoGestionar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:layout_marginLeft="30dp"
+                android:text="tit"
+                android:textSize="25dp"
+
+
+                />
+
+
+
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/fechaEventoGestionar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="tit"
+                android:layout_marginLeft="30dp"
+                android:layout_column="2"
+
+                android:textSize="20dp"
+
+
+
+                />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

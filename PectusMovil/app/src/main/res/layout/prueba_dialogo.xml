@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="310dp"
+    android:layout_height="450dp"
+android:orientation="vertical"
+android:background="@color/grisClaro"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp" >
+
+
+
+    <ListView
+        android:layout_marginTop="20dp"
+        android:id="@+id/listaPrueba"
+        android:layout_marginLeft="20dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+
+
+        >
+
+    </ListView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="salir"
+            android:width="200dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+           android:layout_marginLeft="50dp"
+            android:id="@+id/botonSalir"
+            android:background="@color/botonColor"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+             />
+
+
+
+
+
+</LinearLayout>

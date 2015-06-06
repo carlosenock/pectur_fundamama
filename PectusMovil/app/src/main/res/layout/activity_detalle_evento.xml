@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ucla.pectusmovil.controlador.evento.DetalleEvento"
+    android:background="@drawable/fondototal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Titulo de Actividad"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:id="@+id/tvTituloEvento"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerHorizontal="true"/>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/linea"></LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="La 5ta Edición de la Carrera y Caminata Recreativa Fundamama, como cada año estará llena de alegría, entusiasmo, emoción, corredores que acuden desde distintas ciudades de País que esperan ansiosos cada año este reto, es el día donde niños, jóvenes y adultos se unen para disfrutar de la gran caminata animada con música y buena vibra. Celebra con nosotros y siente la felicidad de ofrecer una esperanza de vida."
+                android:id="@+id/detalleEvento"
+                android:maxLines="25"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:layout_below="@+id/direccionEventoInfo"
+                android:scrollbars="vertical"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/linea"></LinearLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fecha: "
+                    android:id="@+id/fechaInfoEvento"
+                    android:textSize="18dp"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold"
+                    android:width="1000dp"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Viernes 19 de Octubre de 2014"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/negro"
+                    android:id="@+id/tvFechaEvento"
+                    android:width="1000dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="55dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Precio de la Entrada:"
+                    android:id="@+id/lbPrecioEvento"
+                    android:textSize="18dp"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold"
+                    android:width="1000dp"
+                    android:layout_marginTop="40dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500"
+                    android:id="@+id/tvPrecioEvento"
+                    android:textSize="18dp"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold"
+                    android:width="1000dp"
+                    android:layout_marginLeft="175dp"
+                    android:layout_marginTop="40dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hora del Evento:"
+                    android:id="@+id/lbhoraEvento"
+                    android:textSize="18dp"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold"
+                    android:width="1000dp"
+                    android:layout_marginTop="70dp"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="06:00"
+                    android:layout_marginTop="70dp"
+                    android:width="300dp"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="145dp"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold"
+                    android:id="@+id/tvHoraEvento"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lugar del Evento:"
+                    android:id="@+id/tvLugarEvento"
+                    android:textSize="18dp"
+                    android:textColor="@color/negro"
+                    android:textStyle="bold"
+                    android:width="1000dp"
+                    android:layout_marginTop="100dp"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
